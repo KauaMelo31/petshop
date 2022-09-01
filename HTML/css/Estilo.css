@@ -1,0 +1,155 @@
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #17479E;
+    z-index: 99;
+}
+
+nav a {
+    color: #F9E6B3;
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    margin-left: 60px;
+}
+footer{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #17479E;
+  height: 40px;
+  margin-top: 5%;
+}
+a{
+  text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  
+}
+.titulo{
+  text-align: center;
+}
+.imagens{
+  display: flex;
+  justify-content: center;
+}
+.equipe{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+.foto{
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+.foto:hover{
+    box-shadow: 0px 2px 5px #2c2c2ca1;   
+    transform: scale(1.1);   
+}
+
+
+.fotos img{
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
+}
+.fotos:hover{
+  box-shadow: 0px 2px 5px #2c2c2ca1;   
+  transform: scale(1.1);   
+}
+.fotos{
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 50px;
+}
+.pets{
+  display: flex;
+  justify-content: space-around;
+}
+
+div p{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.text{
+    background-color: aliceblue;
+    margin-left: 0%;
+    margin-right: 0%;
+
+}
+
+.Agenda{
+      display: flex;
+      border: 1px solid rgb(29, 28, 28);
+      margin: 1%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: aliceblue;
+}
+td{
+  justify-content: center;
+  text-align: center;
+  width: 500px;
+}
+
+.Tit{
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.Ocupado{
+  background: #C02C4A;
+}
+
+.Loja{
+  display: flex;
+}
+
+.Local{
+  display: block;
+  margin-left: 4%;
+}
+.Dados{
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+.Map{
+  margin-left: 10%;
+}
+
+.Rogerio{
+  color: #C4BBBD;
+}
+
+.Form{
+  display: block;
+  justify-content: center;
+  background-color: #83b4d5;
+  text-align: center;
+}
+
